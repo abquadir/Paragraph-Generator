@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container{
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+}
+h4{
+    color: red;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 7px 20px;
+    background-color: rgb(10, 199, 233);
+    color: #000000;
+    border: 2px solid rgb(10, 199, 233);
+    outline: none;
+    cursor: pointer;
+
+}
+
+.text{
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 20px;
+
+}
+
+.result{
+    margin-bottom: 2rem;
+    text-align: start;
+}
+
+@media(max-width:768px){
+    .text{
+        width: 100%;
+    }
+    label{
+        margin-bottom: 5px;
+    }
+    input{
+        margin-bottom: 5px;
+    }
+}
